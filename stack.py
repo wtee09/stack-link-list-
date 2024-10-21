@@ -10,7 +10,9 @@ class Stack:
         if len(self.internalList) == 0:
             return "Error: Stack is empty!"
         else:
-            return self.internalList.pop()
+            # store the current last member in a variable
+            # delete the current last number
+            # return the variable
 
     def peek(self):
 
